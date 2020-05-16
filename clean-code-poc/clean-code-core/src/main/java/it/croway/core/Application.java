@@ -10,6 +10,7 @@ public class Application {
 	DIApplication diApplication;
 	HttpApplication httpApplication;
 
+	// TODO reflection per recuperare le classi annotate
 	public Application(List<Class<? extends Object>> classes) {
 		Properties prop = new Properties();
 		try {
